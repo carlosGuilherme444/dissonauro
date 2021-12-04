@@ -1,0 +1,53 @@
+#player > img{
+    width: 85px;
+}
+
+#cacto > img{
+    width: 50px;
+}
+
+#game{
+    border: 5px solid rgb(146, 5, 5);
+}
+
+#cacto{
+    left: 486px;
+    top: 4px;
+    position: relative;
+    animation: cacto 1s infinite linear;
+}
+
+#player{
+    position: relative;
+    top: 100px;
+    
+}
+
+.jump{
+    animation: jump 500ms linear;
+    
+}
+
+@keyframes cacto {
+    0%{
+        left: 100%;
+    }
+
+    100%{
+        left: -40px;
+    }
+}
+
+@keyframes jump {
+    0%{
+        top: 40px;
+    }
+
+    50%{
+        top: 2px;
+    }
+
+    100%{
+        top: 40px;
+    }
+}
