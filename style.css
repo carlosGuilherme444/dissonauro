@@ -14,7 +14,7 @@
     left: 486px;
     top: 4px;
     position: relative;
-    animation: cacto 1s infinite linear;
+    animation: cacto 800ms infinite linear;
 }
 
 #player{
