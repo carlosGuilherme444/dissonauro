@@ -19,7 +19,7 @@ function jump1(){
         function morte(){
             var cactol=parseInt(window.getComputedStyle(cacto).getPropertyValue("left"))
 
-            if (cactol < 20 && jump == false){
+            if (cactol < 30 && jump == false){
                 alert("GAME OVER :(");
                 atualizaPagina();
             }
