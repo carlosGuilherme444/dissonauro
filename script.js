@@ -14,7 +14,7 @@ function jump1(){
         setTimeout(() =>{
             player.classList.remove("jump")
             jump=false
-        }, 800)
+        }, 8000)
 
         function morte(){
             var cactol=parseInt(window.getComputedStyle(cacto).getPropertyValue("left"))
